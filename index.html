@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+  <title>
+    Sergi Barrachina Vives | Programmer & Game Developer
+  </title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item"><a href="#clients" class="nav__link">Skills</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <span>Sergi Barrachina Vives</span>
+        </h1>
+        <p>Programmer & Game developer based in Girona</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <p>
+              Third year Game Design & Development student with advanced knowledge of computer science & software development.
+              <br><br>
+              I wish to have the opportunity of applying my abilities and knowledge of software development this summer working on a professional environment
+            </p>
+            <a href="./files/CV_SERGI_BARRACHINA_ENG.pdf" download class="btn">Download My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <img class="about__photo" src="./images/PFP.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!-- ***** Skills ***** -->
+
+    <section class="skills" id="skills">
+      <div class="row">
+        <h2>Skills</h2>
+        <div class="skills__logos">
+          <!-- Add logos of the clients or companies you'have worked with. -->
+          <img src="./images/c++.png" class="skills__logo" alt="Company 2" />
+          <img src="./images/csharp.png" class="skills__logo" alt="Company 3" />
+          <img src="./images/html5.svg" class="skills__logo" alt="Company 1" />
+          <img src="./images/css3.svg" class="skills__logo" alt="Company 1" />
+          <img src="./images/js.svg" class="skills__logo" alt="Company 3" />
+          <img src="./images/php.png" class="skills__logo" alt="Company 1" />
+          <img src="./images/sql.svg" class="skills__logo" alt="Company 1" />
+          <img src="./images/C.png" class="skills__logo" alt="Company 1" />
+          <img src="./images/python.png" class="skills__logo" alt="Company 1" />
+          <img src="./images/java.png" class="skills__logo" alt="Company 1" />
+          <img src="./images/unity.png" class="skills__logo" alt="Company 1" />
+          <img src="./images/unreal.png" class="skills__logo" alt="Company 1" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Work</h2>
+        <div class="work__boxes">
+
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Echoes Of Extinction</h3>
+              <p>
+                I designed and developed the dynamic , component based weapon system for this FPS game. It uses a Strategy pattern to define different behaviours for each weapon 
+                <br><br>
+                I also implemented the minimap logic and the interaction system
+              </p>
+              <ul class="work__list">
+                <li>C#</li>
+                <li>Unity</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://nisar.surge.sh" target="_blank" class="link__text">
+                  Visit Itch.io Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/nisarhassan12/portfolio" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/Echoes.jpg" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Creation of a CRM app</h3>
+              <p>
+                For the final project of my formative degree i designed and implemented this CRM application using a MVC pattern
+                <br><br>
+                The project consisted of loading the contact information of different clients from a Database to the Controller (a PHP file) and then displaying it in the View in a nice and organized way (an HTML file with PHP tags)
+                If the end user inputed anything in the view it then was routed through the controller (another PHP file) towards the Model so it could modify the database
+                <br><br>
+                It had three features , to add , modify and delete contacts
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+                <li>PHP</li>
+                <li>SQL</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="#" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/CRM.jpg" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Notificator</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
+                eius.
+              </p>
+              <ul class="work__list">
+                <li>React</li>
+                <li>Next.js</li>
+                <li>Node</li>
+                <li>MongoDB</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="#" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-3.png" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          If you have any internship opportunities and you think i would be an ideal candidate for them you can contact me on my E-Mail or phone below
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="mailto:sbarrachinavives@gmail.com" class="btn">sbarrachinavives@gmail.com</a>
+        <a href="mailto:sbarrachinavives@gmail.com" class="btn">630669683</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://twitter.com/Ikelos_dev/" title="Link to Twitter Profile">
+            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://github.com/Ikelosvoidz/" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://www.linkedin.com/in/sergi-barrachina-vives-5a8878271//">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
